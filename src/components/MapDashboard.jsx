@@ -452,7 +452,7 @@ export default function MapDashboard({
         ))}
 
         {/* 📍 Danger Zones & Heatmap Data (Dynamic Temporal Radius) */}
-        {heatmapData.map((hazard) => {
+        {(heatmapData || []).map((hazard) => {
           const color = hazard.riskLevel === 'High' 
             ? '#F43F5E' 
             : hazard.riskLevel === 'Medium' 
