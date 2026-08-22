@@ -6,7 +6,7 @@ import {
 import { playHapticTone } from '../services/audioSynthesis';
 import { translations } from '../services/translations';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://kavachbackend-f77h.onrender.com';
 
 export default function AuthModal({ onLoginSuccess, isOpen, onClose, language = 'en' }) {
   const [authMode, setAuthMode] = useState('login');
