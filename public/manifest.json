@@ -1,0 +1,36 @@
+{
+  "short_name": "Kavach AI",
+  "name": "Kavach AI - Autonomous Predictive Safety OS",
+  "description": "Proactive safety-first navigation, real-time counterfactual route intelligence, and dynamic self-correcting risk radar.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#080D1A",
+  "theme_color": "#0B132B",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["navigation", "safety", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Emergency Panic SOS",
+      "short_name": "SOS",
+      "description": "Trigger instant emergency broadcast",
+      "url": "/?action=sos",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Safe Route Navigation",
+      "short_name": "Safe Route",
+      "description": "Open safe perimeter route planner",
+      "url": "/?tab=counterfactual",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
