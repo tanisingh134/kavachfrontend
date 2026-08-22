@@ -38,7 +38,7 @@ import { playHapticTone, playPreEntryWarningAudio } from './services/audioSynthe
 import { translations, SUPPORTED_LANGUAGES } from './services/translations';
 import { saveOfflineSnapshot, exportBackupToFile, getBackupStorageStats } from './services/offlineBackupService';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://kavachbackend-f77h.onrender.com';
 
 export default function App() {
   const [socket, setSocket] = useState(null);
