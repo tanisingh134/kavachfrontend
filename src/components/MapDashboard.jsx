@@ -422,7 +422,7 @@ export default function MapDashboard({
         ))}
 
         {/* 🛡️ 24/7 Verified Safe Havens Layer */}
-        {showSafeHavens && SAFE_HAVENS.map((haven) => (
+        {showSafeHavens && (SAFE_HAVENS || []).map((haven) => (
           <Marker
             key={haven.id}
             position={[haven.lat, haven.lng]}
