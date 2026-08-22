@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Send, X, Bot, User, ShieldAlert, CornerDownRight } from 'lucide-react';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://kavachbackend-f77h.onrender.com';
 
 export default function HotspotChat({ hotspot, onClose }) {
   const [messages, setMessages] = useState([]);
